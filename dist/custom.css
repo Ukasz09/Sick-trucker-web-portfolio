@@ -9,5 +9,8 @@
   border-radius: 35px;
   background-color: black;
   width: fit-content;
+}
+
+.phone-one-size {
   height: 350px;
 }
