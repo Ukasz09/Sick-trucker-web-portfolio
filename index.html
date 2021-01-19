@@ -62,33 +62,120 @@
               <div class="col phone my-5">
                 <img src="/assets/images/graphic-1.jpg" alt="nick-choose-screen" />
               </div>
+              <div class="phone-separator"></div>
               <div class="col phone my-5 ml-1">
                 <img src="/assets/images/graphic-2.jpg" alt="logo-choose-screen" />
               </div>
             </div>
           </div>
         </section>
-        <!-- ----------------------- Slide 5 ---------------------- -->
         <section>
-          <div class="fw-bold text-uppercase text-warning">Varius, beautiful biomes</div>
-          <div class="row">
-            <div class="col phone my-5">
-              <img src="/assets/images/biome1.jpg" alt="biome-1-screen" />
+          <!-- ----------------------- Slide 5 veritcal ---------------------- -->
+          <section>
+            <div class="fw-bold text-uppercase text-warning">Varius, beautiful biomes</div>
+            <div class="row">
+              <div class="col phone my-5">
+                <img src="/assets/images/biome1.jpg" alt="biome-1-screen" />
+              </div>
+              <div class="phone-separator"></div>
+              <div class="col phone my-5 ml-1">
+                <img src="/assets/images/biome2.jpg" alt="biome-2-screen" />
+              </div>
             </div>
-            <div class="col phone my-5 ml-1">
-              <img src="/assets/images/biome2.jpg" alt="biome-2-screen" />
+            <div class="my-0 row">
+              <div class="col phone my-5">
+                <img src="/assets/images/biome3.jpg" alt="biome-3-screen" />
+              </div>
+              <div class="phone-separator"></div>
+              <div class="col phone my-5 ml-1">
+                <img src="/assets/images/biome4.jpg" alt="biome-4-screen" />
+              </div>
+            </div>
+          </section>
+          <!-- ----------------------- Slide 6 veritcal ---------------------- -->
+          <section>
+            <div class="fw-bold text-uppercase text-warning">Varius, beautiful biomes</div>
+            <div class="row" id="row-test">
+              <div class="col phone my-5">
+                <img src="/assets/images/biome5.jpg" alt="biome-5-screen" />
+              </div>
+              <div class="phone-separator"></div>
+              <div class="col phone my-5 ml-1">
+                <img src="/assets/images/biome6.jpg" alt="biome-6-screen" />
+              </div>
+            </div>
+            <div class="my-0 row">
+              <div class="col phone my-5">
+                <img src="/assets/images/biome7.jpg" alt="biome-7-screen" />
+              </div>
+              <div class="phone-separator"></div>
+              <div class="col phone my-5 ml-1">
+                <img src="/assets/images/biome8.jpg" alt="biome-8-screen" />
+              </div>
+            </div>
+          </section>
+        </section>
+        <!-- ------------------------------------------- Slide 7  ------------------------------------------- -->
+        <section>
+          <div class="mb-5 fw-bold text-uppercase text-warning">THE GOAL</div>
+          <div style="font-size: 0.75em" class="text-light">
+            <div>
+              <span> The main goal is </span>
+              <span class="text-warning fw-bold"> have fun </span>
+            </div>
+            <div class="my-5">
+              <span>Beside that you should also </span>
+              <span class="text-warning fw-bold"> collect the key </span>
+              <span>to make a mark on the leaderboard</span>
             </div>
           </div>
-          <div class="my-0 row">
-            <div class="col phone my-5">
-              <img src="/assets/images/biome3.jpg" alt="biome-3-screen" />
-            </div>
-            <div class="col phone my-5 ml-1">
-              <img src="/assets/images/biome4.jpg" alt="biome-4-screen" />
+          <div class="d-flex justify-content-center">
+            <div class="row">
+              <div class="col phone my-5">
+                <img src="/assets/images/win-page.jpg" alt="win-page-screen" />
+              </div>
+              <div class="phone-separator"></div>
+              <div class="col phone my-5 ml-1">
+                <img src="/assets/images/leader-board.jpg" alt="leader-board-screen" />
+              </div>
             </div>
           </div>
         </section>
+        <!-- ------------------------------------------- Slide 8  ------------------------------------------- -->
+        <section>
+          <div class="mb-5 fw-bold text-uppercase text-warning">DOWNLOAD NOW</div>
+          <div style="font-size: 0.75em" class="text-light">
+            <button class="btn btn-lg btn-outline-warning" onclick="location.href='https://github.com/Ukasz09'">
+              Project Repository
+            </button>
+            <button class="btn btn-lg btn-outline-warning" onclick="location.href='https://github.com/Ukasz09'">
+              Direct download link
+            </button>
+          </div>
+        </section>
+        <!-- ------------------------------------------- Slide 8  ------------------------------------------- -->
+        <section>
+          <div class="mb-5 fw-bold text-uppercase text-warning">ABOUT ME</div>
+          <div style="font-size: 0.75em" class="text-light">
+            <div class="mx-auto">
+              <img src="/assets/images/author.jpg" alt="author" height="250px" class="rounded-circle" />
+            </div>
+            <div class="w-50 mx-auto">
+              <span> Hi, I'm </span>
+              <span class="text-warning fw-bold">Łukasz</span>
+              <span>I enjoy doing nice stuff. Hope that you enjoy my work</span>
+              <span>If you'd lik you can also check my other projects on my</span>
 
+              <button
+                class="btn btn-lg btn-outline-warning my-4"
+                onclick="location.href='https://github.com/Ukasz09'"
+                value="Go to Google"
+              >
+                GitHub
+              </button>
+            </div>
+          </div>
+        </section>
         <!-- ------------------------------------------- / ------------------------------------------- -->
       </div>
     </div>
@@ -106,6 +193,8 @@
         hash: true,
         plugins: [RevealMarkdown, RevealHighlight, RevealNotes],
         backgroundTransition: "zoom",
+        // autoSlide: 8000,
+        // loop: true,
       });
     </script>
   </body>

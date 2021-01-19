@@ -14,3 +14,8 @@
 .phone-one-size {
   height: 350px;
 }
+
+/* Because margins not work inside slides in this case */
+.phone-separator {
+  width: 20px;
+}
