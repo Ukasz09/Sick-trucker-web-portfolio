@@ -1,3 +1,13 @@
 .header-bg {
   background-color: rgba(0, 0, 0, 0.6);
 }
+
+.phone {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 35px;
+  background-color: black;
+  width: fit-content;
+  height: 350px;
+}
