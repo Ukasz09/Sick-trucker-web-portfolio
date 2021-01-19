@@ -5,25 +5,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 
     <title>reveal.js</title>
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="dist/reset.css" />
     <link rel="stylesheet" href="dist/reveal.css" />
     <link rel="stylesheet" href="dist/theme/black.css" id="theme" />
-
-    <!-- Theme used for syntax highlighted code -->
+    <link rel="stylesheet" href="dist/custom.css" />
     <link rel="stylesheet" href="plugin/highlight/monokai.css" id="highlight-theme" />
   </head>
   <body>
     <div class="reveal">
+      <!-- ------------------------------------------- SLIDES ------------------------------------------- -->
       <div class="slides">
-        <section
-          data-background-video="https://s3.amazonaws.com/static.slid.es/site/homepage/v1/homepage-video-editor.mp4"
-          data-background-color="#000"
-        >
-          <div style="height: 70vh">
-            <h2 class="bg-dark">Sick Trucker Game</h2>
+        <!-- ----------------------- Slide 1 ---------------------- -->
+        <section data-background-video="assets/video/gameplay.mp4" data-background-video-loop data-background-video-muted data>
+          <div class="header-bg py-4">
+            <!-- <img src="assets/images/game-logo.png" alt="game-logo" style="margin-bottom: 250px" /> -->
+            <div class="fw-bold" style="color: #bababa; font-size: 1.5em; margin-bottom: 250px">SICK TRUCKER</div>
+            <div class="fw-bold" style="color: #bababa; font-size: 1em">THE GAME</div>
           </div>
         </section>
+        <!-- ----------------------- Slide 2 ---------------------- -->
+        <section>
+          <div class="mb-5 fw-bold text-uppercase text-warning">Sick Trucker</div>
+          <div style="font-size: 0.75em" class="text-light">
+            Simple, sensor-controlled, mobile 2D game in which you can try your hand as a monster truck driver
+          </div>
+          <img src="/assets/images/home-page.jpg" alt="game-home-page" class="rounded" />
+        </section>
+        <!-- ------------------------------------------- / ------------------------------------------- -->
       </div>
     </div>
     <script
@@ -36,13 +46,8 @@
     <script src="plugin/markdown/markdown.js"></script>
     <script src="plugin/highlight/highlight.js"></script>
     <script>
-      // More info about initialization & config:
-      // - https://revealjs.com/initialization/
-      // - https://revealjs.com/config/
       Reveal.initialize({
         hash: true,
-
-        // Learn about plugins: https://revealjs.com/plugins/
         plugins: [RevealMarkdown, RevealHighlight, RevealNotes],
       });
     </script>
